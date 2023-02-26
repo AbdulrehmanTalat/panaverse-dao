@@ -71,7 +71,7 @@ export default function Footer() {
                 align={'center'}>
                 <Logo />
                 <Stack direction={'row'} spacing={6}>
-                    <Link href={'main'}>Home</Link>
+                    <Link href={'.'}>Home</Link>
                     <Link href={'about'}>About</Link>
                     <Link href={'course'}>Courses</Link>
                     <Link href={'contact'}>Contact</Link>

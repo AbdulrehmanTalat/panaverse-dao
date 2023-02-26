@@ -13,11 +13,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <ChakraWrapper>
-        <NavBar></NavBar>
-        {children}
-        <Footer></Footer>
-      </ChakraWrapper>
+      <body>
+        <ChakraWrapper>
+          <NavBar></NavBar>
+          {children}
+          <Footer></Footer>
+        </ChakraWrapper>
+      </body>
     </html>
   )
 }
