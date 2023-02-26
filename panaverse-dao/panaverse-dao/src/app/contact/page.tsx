@@ -145,7 +145,7 @@ import {
                       <FormLabel>Name</FormLabel>
   
                       <InputGroup>
-                        <InputLeftElement children={<BsPerson />} />
+                        <InputLeftElement  />
                         <Input type="text" name="name" placeholder="Your Name" />
                       </InputGroup>
                     </FormControl>
@@ -154,7 +154,7 @@ import {
                       <FormLabel>Email</FormLabel>
   
                       <InputGroup>
-                        <InputLeftElement children={<MdOutlineEmail />} />
+                        <InputLeftElement />
                         <Input
                           type="email"
                           name="email"
