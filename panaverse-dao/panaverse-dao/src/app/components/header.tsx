@@ -24,7 +24,6 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-
 export default function NavBar() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -56,14 +55,8 @@ export default function NavBar() {
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <HStack spacing={3}>
             <Box >
-              <Img boxSize='24px' src='https://test-panaverse.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FappLogo.de5c700a.png&w=384&q=75' alt='panaverse dao logo' />
+              <Img boxSize='34px' src='https://www.panaverse.co/red-p-logo-text_dao_croped.png' alt='panaverse dao logo' />
             </Box>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-              Panaverse
-            </Text>
           </HStack>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>

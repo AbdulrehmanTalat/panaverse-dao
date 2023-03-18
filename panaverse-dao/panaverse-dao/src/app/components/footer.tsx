@@ -17,11 +17,8 @@ const Logo = (props: any) => {
     return (
         <HStack spacing={3}>
             <Box >
-                <Img boxSize='40px' src='https://test-panaverse.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FappLogo.de5c700a.png&w=384&q=75' alt='panaverse dao logo' />
+                <Img boxSize='120px' src='https://www.panaverse.co/red-p-logo-text_dao_croped.png' alt='panaverse dao logo' />
             </Box>
-            <Text fontSize='lg' noOfLines={1}>
-                Panaverse
-            </Text>
         </HStack>
     );
 };
