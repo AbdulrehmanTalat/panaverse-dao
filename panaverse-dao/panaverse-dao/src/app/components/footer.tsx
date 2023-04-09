@@ -37,12 +37,12 @@ export default function Footer() {
                 justify={'center'}
                 align={'center'}>
                 <Logo />
-                <Stack direction={'row'} spacing={6}>
+                {/* <Stack direction={'row'} spacing={6}>
                     <Link href={'.'}>Home</Link>
                     <Link href={'about'}>About</Link>
                     <Link href={'course'}>Courses</Link>
                     <Link href={'contact'}>Contact</Link>
-                </Stack>
+                </Stack> */}
             </Container>
 
             <Box
